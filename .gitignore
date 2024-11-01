@@ -1,3 +1,22 @@
+#inculde <vector>
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  //define a vector of vectors 
+  vector<vector<int> >stuff;
+  // fill the inner vector, then insert it into the outer vector 
+  for (int i=0; i<3; i++) {
+    vector<int>temp;
+    for (int j = 0; j < 3; j++) {
+        temp.push_back(i)
+    }
+    stuff.push_back(i)
+
+  
+    
 /******************************************************************
 Course Section: 2 - 10:00am
 Program: SillyMath 
