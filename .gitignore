@@ -17,6 +17,16 @@ int main()
 
 vector<int> row = {mathLevel, leftNum, mathSymbol, rightnum, correctAnswer};
 
+string username;
+int leftNum;
+int rightNum;
+int mathType;
+char mathSymbol;
+int correctAns;
+int userAns;
+int temp;
+
+
 
 
     cout << "                  ************************" << endl;
@@ -34,3 +44,27 @@ vector<int> row = {mathLevel, leftNum, mathSymbol, rightnum, correctAnswer};
             cout << "\nQuestion " << question << " of " << MAX_ATTEMPTS;
             cout << "\nAttempts remaining: " << (MAX_ATTEMPTS - question + 1) << endl;
             cout << "What is " << num1 << " " << operationSymbol << " " << num2 << "? ";
+
+
+
+
+
+
+
+
+ // Play again validation
+        do {
+            cout << "\nDo you want to continue? (y/yes/n/no): ";
+            cin >> playAgain;
+            // Convert to lowercase
+            for (char& c : playAgain) {
+                c = tolower(c);
+            }
+        } while (playAgain != "y" && playAgain != "yes" && 
+                 playAgain != "n" && playAgain != "no");
+
+    } while (playAgain == "y" || playAgain == "yes");
+
+    cout << "\nThanks for playing!" << endl;
+    return 0;
+}x
