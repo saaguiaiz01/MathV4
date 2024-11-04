@@ -15,13 +15,20 @@ int main()
     }
     stuff.push_back(i)
 
-  
-    
-/******************************************************************
-Course Section: 2 - 10:00am
-Program: SillyMath 
-Version: 4
-Programmer: Sandra Aguilar 
-GitHub URL:
-Description: 
-******************************************************************/
+
+
+    cout << "                  ************************" << endl;
+    cout << "                        MATH TUTOR V3" << endl;
+    cout << "                  ************************" << endl;
+    cout << "                        Section 2" << endl;
+    cout << "             **************************************" << endl;
+    cout << "                    Sandra Aguilar Paiz" << endl;
+    cout << "             **************************************" << endl;
+    cout << "         https:"https://github.com/saaguiaiz01/MathV4/edit/main/.gitignore" << endl;
+    cout << "             **************************************" << endl;
+    cout << "                 Welcome to V4 of Math Tutor!" << endl;
+    cout << "Please enter your full name: ";
+    getline(cin, username);
+            cout << "\nQuestion " << question << " of " << MAX_ATTEMPTS;
+            cout << "\nAttempts remaining: " << (MAX_ATTEMPTS - question + 1) << endl;
+            cout << "What is " << num1 << " " << operationSymbol << " " << num2 << "? ";
